@@ -1,0 +1,123 @@
+body {
+  background-color: #1E1B28;
+  font-family: 'Fredoka', sans-serif;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 0%;
+  margin-bottom: 5%;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+  transition: 0.5s ease-in-out;
+}
+
+.settings {
+  background-color: #1E1B28;
+  font-family: 'Fredoka', sans-serif;
+  border: 3px solid #10A4BE;
+  border-radius: 10px;
+  color: #1ECDE2;
+  padding: 6px;
+  transition: 0.5s ease-in-out;
+}
+
+.button {
+  background-color: #9BBBCC;
+  font-family: 'Fredoka', sans-serif;
+  border: none;
+  color: #1E1B28;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 3px solid #5094DC;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+}
+.button:hover {
+  background-color: #1E1B28;
+  color: #5351E1;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.5s ease-in-out;
+}
+.button:active {
+  background-color: #9BBBCC;
+  color: #1E1B28;
+  transition: 0.5s ease-in-out;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #BC87B2;
+  opacity: 1; /* Firefox */
+  transition: 0.5s ease-in-out;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #BC87B2;
+  transition: 0.5s ease-in-out;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #BC87B2;
+  transition: 0.5s ease-in-out;
+}
+
+.title {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: normal;
+  color: #9BBBCC;
+  background-color: #1E1B28;
+  padding-top: 0.1%;
+  padding-bottom: 0.1%;
+  font-family: 'Bradley Hand', cursive;
+  transition: 0.5s ease-in-out;
+}
+
+.text, .input {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: normal;
+  color: #1AA4ED;
+  background-color: #1E1B28;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: 'Fredoka', sans-serif;
+  transition: 0.5s ease-in-out;
+}
+
+.hr {
+  border-color: #9BBBCC;
+  transition: 0.5s ease-in-out;
+}
+
+span {
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #15121E;
+  border: 10px solid #15121E;
+  border-radius: 10px;
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+
+@keyframes fly {
+  0% { transform: translate(0px,0px) rotate(0deg); }
+  25% { transform: translate(0px,1px) rotate(0deg); }
+  50% { transform: translate(0px,-1px) rotate(0deg); }
+  75% { transform: translate(0px 0px) rotate(0deg); }
+  100% { transform: translate(0px,0px) rotate(0deg); }
+}
+@media only screen and (max-width: 768px) {
+        body {
+          margin-left: 5%;
+          margin-right: 5%;
+        }
+      }
